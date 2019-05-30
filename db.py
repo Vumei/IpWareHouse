@@ -28,7 +28,7 @@ print(curtime,"The number of inserted is  " + str(len(list_IP)))
 
 #Create a table
 conn = pymysql.connect(host='localhost', port=3306, user='root', 
-passwd='a.1', db='arp_status',charset='utf8',use_unicode=True)
+passwd='***', db='arp_status',charset='utf8',use_unicode=True)
 cur = conn.cursor()
 
 
